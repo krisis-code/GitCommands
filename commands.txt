@@ -1,0 +1,93 @@
+Git config -> Local de kullanıcı ekleme 
+
+git config --global user.name "isim" -> Kullanıcı adı ekler.
+
+git config --global user.mail "mail" -> Kullanıcı mail ekler
+
+git confif --list -> config listeleme 
+
+pwd -> olduğun dizinin adını vs gösterir 
+
+cd .. -> bir üst dizine çıkar
+
+cd Dosya adı -> istenilen dosyaya girer 
+
+mkdir "dosya adı" -> dosya oluşturma 
+
+touch dosya adı.dosya uzantısı -> belge oluşturma 
+
+ls -> içinde bulunduğun dosyanın içindekileri listeler 
+
+ls -a -> Tüm dosyaları gösterme
+
+git init -> repository oluşturma 
+
+git add dosya adı -> Belirtilen dosyadaki değişikleri staging areaya ekleme 
+
+git add . -> Bütün değişikleri staging areaya ekleme 
+
+git commit --m "Bilgi"    bilgi ekleme 
+
+git log -> logları commitleri görme
+
+git log --oneline -> logları daha kısa gösterir
+
+git checkout commitId -- . -> local de silinmiş dosyayı geri getirme yada versiyon değişikliği yapma
+
+git diff -> dosyanın içinde yapılan değişikliği görme 
+
+git diff dosya adı -> belirtilen dosyanın içindeki değişikliği görme
+
+ 
+
+
+git rm --dosya adı  -> Dosya silme 
+
+
+git rm -r klasör adı  -> klasör silme 
+
+git mv dosya adı.dosya uzaantısı yeni dosya  adı.uzantı  -> dosya adı değiştirme
+
+git mv dosya adı.dosya uzaantısı Yeni konumı   -> dosya konumu  değiştirme
+
+git config --global alias.kısaltma kısaltılan komt -> komut kısayol oluşturma
+
+git remote add  origin repository link -> githubdan local a repository çekme 
+
+git remote 
+
+git pull -> eğer başkası dosyada değişiklik yaptı ise local repostiory ekleme işlemi
+
+
+dosya gizleme(Gözardı etme)
+
+touch .gitignore -> gitignore dosyası oluşturur gözardı etmek isteiğiniz klasöri yada belgelerin adını bu belgenin içine yazmanız lazım
+
+!klasör adı (örnek.txt) -> klasör gizlenir ama örnek.txt dosyası gözükür
+
+klasör adı /* -> tüm klasör ü gizler
+
+git branch -> local deki branchleri  listler 
+
+git branch -- all -> Online ve local tüm branchleri listeler 
+
+git fetch -> online de oluşturulan branchlere local de ulaşma 
+
+git  branch brach adı -> local de yeni branch oluşturma 
+
+git  checkout branch adı -> brancler arasında geçiş yapma 
+
+git pull origin branch adı -> yapılan değişikliği localdeki branch e çekme 
+
+git merge branch adı -> branchleri değiştirme 
+
+git branch -D branch adı -> branch silme 
+
+
+
+
+
+
+
+
+
