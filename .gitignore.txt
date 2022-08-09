@@ -1,0 +1,6 @@
+deneme.txt
+deneme2.txt
+git101.txt
+try.txt
+test/*
+!test/yeniAdı.txt
